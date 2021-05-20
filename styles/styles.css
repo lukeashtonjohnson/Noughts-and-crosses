@@ -1,0 +1,43 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+span.player {
+  font-size: 25px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.row div {
+  display: flex;
+  padding: 10px;
+  border: 5px solid black;
+  height: 60px;
+  width: 60px;
+  margin: 0.025em;
+}
+
+.row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.winning-message {
+  text-align: center;
+}
